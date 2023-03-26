@@ -1,0 +1,35 @@
+
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_pig_skin": {
+        "conditions": {
+          "items": [
+            {
+              "item": [
+                "simplechanges:pig_skin"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "simplechanges:leather"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_pig_skin",
+        "has_the_recipe"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "simplechanges:leather"
+      ]
+    }
+  }

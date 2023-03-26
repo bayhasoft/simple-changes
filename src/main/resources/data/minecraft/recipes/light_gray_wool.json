@@ -17,5 +17,6 @@
         "item": "minecraft:light_gray_wool",
         "count": 8
     },
-    "group": "wool"
+    "group": "wool",
+    "category": "building"
 }
