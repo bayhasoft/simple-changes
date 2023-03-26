@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "simple_changes",
+  "id": "simplechanges",
   "version": "${version}",
 
   "name": "Simple Changes",
@@ -19,10 +19,15 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.simple_changes.SimpleChanges"
+      "net.simplechanges.SimpleChanges"
+    ],
+    "fabric-datagen": [
+      "net.simplechanges.DataGeneration"
     ]
   },
-
+    "mixins": [
+    "simplechanges.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.14.18",
     "fabric-api": "*",

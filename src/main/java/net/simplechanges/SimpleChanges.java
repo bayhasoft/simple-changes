@@ -1,12 +1,13 @@
-package net.simple_changes;
+package net.simplechanges;
 
 import net.fabricmc.api.ModInitializer;
-import net.simple_changes.LootTablesModifiers.LootTablesEntitiesModifier;
+import net.simplechanges.LootTablesModifiers.LootTablesEntitiesModifier;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class SimpleChanges implements ModInitializer {
-	public static final String MOD_ID ="simple_changes";
+	public static final String MOD_ID ="simplechanges";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
