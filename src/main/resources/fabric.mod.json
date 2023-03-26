@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_changes",
+  "version": "${version}",
+
+  "name": "Simple Changes",
+  "description": "Makes small quality of life changes and additions.",
+  "authors": [
+    "BayhaSoft"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.simple_changes.SimpleChanges"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.18",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
