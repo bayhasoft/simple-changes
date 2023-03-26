@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "sticks",
+    "key": {
+      "#": {
+        "tag": "minecraft:saplings"
+      }
+    },
+    "pattern": [
+      "#",
+      "#"
+    ],
+    "result": {
+      "count": 2,
+      "item": "minecraft:stick"
+    }
+  }
+  
