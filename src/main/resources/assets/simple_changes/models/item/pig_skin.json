@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "simple_changes:item/pig_skin"
+        "layer0": "simplechanges:item/pig_skin"
     }
 }
