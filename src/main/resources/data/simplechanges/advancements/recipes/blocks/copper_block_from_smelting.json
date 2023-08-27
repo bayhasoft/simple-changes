@@ -6,7 +6,7 @@
         "conditions": {
           "items": [
             {
-              "item": [
+              "items": [
                 "minecraft:raw_copper_block"
               ]
             }

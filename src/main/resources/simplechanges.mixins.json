@@ -3,7 +3,8 @@
     "package": "net.simplechanges.mixin",
     "compatibilityLevel": "JAVA_17",
     "mixins": [
-        "SimpleChangesMixin"
+        "SimpleChangesMixin",
+        "MaxStackMixin"
     ],
     "injectors": {
         "defaultRequire": 1

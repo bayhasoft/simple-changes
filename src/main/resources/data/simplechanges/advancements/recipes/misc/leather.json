@@ -6,7 +6,7 @@
         "conditions": {
           "items": [
             {
-              "item": [
+              "items": [
                 "simplechanges:pig_skin"
               ]
             }
