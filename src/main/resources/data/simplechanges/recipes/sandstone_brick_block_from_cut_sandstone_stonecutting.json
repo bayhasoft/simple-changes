@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:cut_sandstone"
+    },
+    "result": "simplechanges:sandstone_brick_block",
+    "count": 1
+}

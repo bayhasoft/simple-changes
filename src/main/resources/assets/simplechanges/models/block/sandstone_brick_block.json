@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+      "all": "simplechanges:block/sandstone_brick_block"
+    }
+  }

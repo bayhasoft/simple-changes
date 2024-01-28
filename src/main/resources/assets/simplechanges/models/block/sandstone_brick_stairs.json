@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/stairs",
+    "textures": {
+      "bottom": "simplechanges:block/sandstone_brick_block",
+      "side": "simplechanges:block/sandstone_brick_block",
+      "top": "simplechanges:block/sandstone_brick_block"
+    }
+  }
+  
