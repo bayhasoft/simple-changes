@@ -14,6 +14,8 @@ public class SimpleChanges implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+
+		Modblocks.registerModBlocks();
 		
 		LootTablesEntitiesModifier.modifyLootTables();
 

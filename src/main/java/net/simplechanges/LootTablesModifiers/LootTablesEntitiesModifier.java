@@ -1,10 +1,8 @@
 package net.simplechanges.LootTablesModifiers;
 
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
-import net.minecraft.entity.mob.HuskEntity;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
-import net.minecraft.loot.condition.KilledByPlayerLootCondition;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.function.LootingEnchantLootFunction;

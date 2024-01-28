@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "simplechanges:sandstone_brick_block",
+        "simplechanges:sandstone_brick_slab",
+        "simplechanges:sandstone_brick_stairs",
+        "simplechanges:sandstone_brick_wall"
+    ]
+}

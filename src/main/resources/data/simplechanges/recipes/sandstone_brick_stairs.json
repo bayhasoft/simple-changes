@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "simplechanges:sandstone_brick_block"
+        }
+    },
+    "result": {
+        "item": "simplechanges:sandstone_brick_stairs",
+        "count": 4
+    },
+    "category": "building"
+}

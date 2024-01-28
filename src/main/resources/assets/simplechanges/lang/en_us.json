@@ -1,3 +1,8 @@
 {
-    "item.simplechanges.pig_skin": "Pig Skin"
+    "item.simplechanges.pig_skin": "Pig Skin",
+    
+    "block.simplechanges.sandstone_brick_block": "Sandstone Brick",
+    "block.simplechanges.sandstone_brick_slab": "Sandstone Brick Slab",
+    "block.simplechanges.sandstone_brick_stairs": "Sandstone Brick Staris",
+    "block.simplechanges.sandstone_brick_wall": "Sandstone Brick Wall"
 }

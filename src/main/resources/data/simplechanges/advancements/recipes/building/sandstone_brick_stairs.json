@@ -1,14 +1,13 @@
-
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-      "has_phantom_membrane": {
+      "has_sandstone_brick_block": {
         "conditions": {
           "items": [
             {
               "items": [
-                "minecraft:phantom_membrane"
-              ]
+                "simplechanges:sandstone_brick_block"
+                ]
             }
           ]
         },
@@ -16,20 +15,21 @@
       },
       "has_the_recipe": {
         "conditions": {
-          "recipe": "simplechanges:leather_from_phantom_membrane"
+          "recipe": "simplechanges:sandstone_brick_stairs"
         },
         "trigger": "minecraft:recipe_unlocked"
       }
     },
     "requirements": [
       [
-        "has_phantom_membrane",
+        "has_sandstone_brick_block",
         "has_the_recipe"
       ]
     ],
     "rewards": {
       "recipes": [
-        "simplechanges:leather_from_phantom_membrane"
+        "simplechanges:sandstone_brick_stairs"
       ]
     }
   }
+  
