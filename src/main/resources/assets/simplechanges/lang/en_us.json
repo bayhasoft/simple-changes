@@ -4,5 +4,12 @@
     "block.simplechanges.sandstone_brick_block": "Sandstone Brick",
     "block.simplechanges.sandstone_brick_slab": "Sandstone Brick Slab",
     "block.simplechanges.sandstone_brick_stairs": "Sandstone Brick Staris",
-    "block.simplechanges.sandstone_brick_wall": "Sandstone Brick Wall"
+    "block.simplechanges.sandstone_brick_wall": "Sandstone Brick Wall",
+    "block.simplechanges.sawmill": "Sawmill",
+
+    "container.sawmill": "Sawmill",
+
+    "simplechanges.press.shift.tooltip": "Press Shift For Details",
+    "simplechanges.sawmill.tooltip.line1" : "Used to Craft Blocks",
+    "simplechanges.sawmill.tooltip.line2" : "from Logs and Planks"
 }

@@ -1,4 +1,4 @@
-package net.simplechanges;
+package net.simplechanges.Blocks;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -16,7 +16,8 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-
+import net.simplechanges.SimpleChanges;
+import net.simplechanges.Blocks.Custom.SawmillBlock;
 
 
 public class Modblocks {
@@ -29,6 +30,9 @@ public class Modblocks {
         new StairsBlock(SANDSTONE_BRICK_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(SANDSTONE_BRICK_BLOCK)), ItemGroups.BUILDING_BLOCKS); 
     public static final Block SANDSTONE_BRICK_WALL = registerBlock("sandstone_brick_wall",
         new WallBlock(FabricBlockSettings.copyOf(SANDSTONE_BRICK_BLOCK)), ItemGroups.BUILDING_BLOCKS);
+        
+    public static final Block SAWMILL = registerBlock("sawmill",
+        new SawmillBlock(FabricBlockSettings.of(Material.STONE)), ItemGroups.FUNCTIONAL);   
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
