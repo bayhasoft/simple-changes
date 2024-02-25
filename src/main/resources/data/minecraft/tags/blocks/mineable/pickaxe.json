@@ -4,6 +4,10 @@
         "simplechanges:sandstone_brick_block",
         "simplechanges:sandstone_brick_slab",
         "simplechanges:sandstone_brick_stairs",
-        "simplechanges:sandstone_brick_wall"
+        "simplechanges:sandstone_brick_wall",
+        "simplechanges:red_sandstone_brick_block",
+        "simplechanges:red_sandstone_brick_slab",
+        "simplechanges:red_sandstone_brick_stairs",
+        "simplechanges:red_sandstone_brick_wall"
     ]
 }

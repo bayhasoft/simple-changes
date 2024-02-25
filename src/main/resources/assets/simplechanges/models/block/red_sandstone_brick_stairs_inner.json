@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+      "bottom": "simplechanges:block/red_sandstone_brick_block",
+      "side": "simplechanges:block/red_sandstone_brick_block",
+      "top": "simplechanges:block/red_sandstone_brick_block"
+    }
+  }

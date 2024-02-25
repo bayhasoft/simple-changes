@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bamboo_slab"
+        }
+    },
+    "result": {
+        "item": "simplechanges:bamboo_wall",
+        "count": 3
+    },
+    "group": "wood_wall",
+    "category": "misc"
+}
