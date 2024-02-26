@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:oak_slab"
+        }
+    },
+    "result": {
+        "item": "simplechanges:oak_wall",
+        "count": 3
+    },
+    "group": "wood_wall",
+    "category": "misc"
+}

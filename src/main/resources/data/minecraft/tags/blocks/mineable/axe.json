@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "simplechanges:oak_wall",
+        "simplechanges:spruce_wall",
+        "simplechanges:birch_wall",
+        "simplechanges:jungle_wall",
+        "simplechanges:acacia_wall",
+        "simplechanges:dark_oak_wall",
+        "simplechanges:cherry_wall",
+        "simplechanges:mangrove_wall",
+        "simplechanges:bamboo_wall",
+        "simplechanges:crimson_wall",
+        "simplechanges:warped_wall"
+    ]
+}

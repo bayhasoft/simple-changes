@@ -2,6 +2,8 @@ package net.simplechanges;
 
 import net.fabricmc.api.ModInitializer;
 import net.simplechanges.LootTablesModifiers.LootTablesEntitiesModifier;
+import net.simplechanges.util.CustomTrades;
+import net.simplechanges.util.ModRegisteries;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,9 +17,13 @@ public class SimpleChanges implements ModInitializer {
 
 		ModItems.registerModItems();
 
-		Modblocks.registerModBlocks();
+		ModBlocks.registerModBlocks();
 		
 		LootTablesEntitiesModifier.modifyLootTables();
+
+		ModRegisteries.registerModThings();
+		CustomTrades.registerCustomTrades();
+		
 
 	}
 }

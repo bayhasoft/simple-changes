@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cherry_slab"
+        }
+    },
+    "result": {
+        "item": "simplechanges:cherry_wall",
+        "count": 3
+    },
+    "group": "wood_wall",
+    "category": "misc"
+}
