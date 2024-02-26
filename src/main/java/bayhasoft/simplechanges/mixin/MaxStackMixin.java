@@ -1,10 +1,11 @@
-package net.simplechanges.mixin;
+package bayhasoft.simplechanges.mixin;
 
-import net.minecraft.item.Items;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 import org.spongepowered.asm.mixin.injection.Slice;
+
+import net.minecraft.item.Items;
 
 @Mixin(Items.class)
 public class MaxStackMixin {
