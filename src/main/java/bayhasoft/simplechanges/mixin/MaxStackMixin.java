@@ -1,4 +1,4 @@
-package net.simplechanges.mixin;
+package bayhasoft.simplechanges.mixin;
 
 import net.minecraft.item.Items;
 import org.spongepowered.asm.mixin.Mixin;

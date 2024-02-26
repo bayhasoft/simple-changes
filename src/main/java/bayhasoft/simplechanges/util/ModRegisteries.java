@@ -1,10 +1,10 @@
-package net.simplechanges.util;
+package bayhasoft.simplechanges.util;
 
+import bayhasoft.simplechanges.ModBlocks;
+import bayhasoft.simplechanges.SimpleChanges;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.Blocks;
-import net.simplechanges.ModBlocks;
-import net.simplechanges.SimpleChanges;
 
 public class ModRegisteries {
     public static void registerModThings() {

@@ -19,10 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.simplechanges.SimpleChanges"
+      "bayhasoft.simplechanges.SimpleChanges"
     ],
     "fabric-datagen": [
-      "net.simplechanges.DataGeneration"
+      "bayhasoft.simplechanges.DataGeneration"
     ]
   },
     "mixins": [

@@ -1,12 +1,13 @@
-package net.simplechanges.mixin;
+package bayhasoft.simplechanges.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
-import net.simplechanges.SimpleChanges;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import bayhasoft.simplechanges.SimpleChanges;
 
 @Mixin(TitleScreen.class)
 public class SimpleChangesMixin {

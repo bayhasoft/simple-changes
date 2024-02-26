@@ -1,4 +1,4 @@
-package net.simplechanges;
+package bayhasoft.simplechanges;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
