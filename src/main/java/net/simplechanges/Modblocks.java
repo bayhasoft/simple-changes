@@ -17,7 +17,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 
 public class ModBlocks {
     

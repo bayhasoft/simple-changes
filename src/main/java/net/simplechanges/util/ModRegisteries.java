@@ -1,8 +1,10 @@
-package net.simplechanges;
+package net.simplechanges.util;
 
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.Blocks;
+import net.simplechanges.ModBlocks;
+import net.simplechanges.SimpleChanges;
 
 public class ModRegisteries {
     public static void registerModThings() {

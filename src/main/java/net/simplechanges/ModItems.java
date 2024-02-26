@@ -26,7 +26,7 @@ public class ModItems {
   }
    
   public static void registerModItems() {
-      SimpleChanges.LOGGER.debug("" + SimpleChanges.MOD_ID);
+      SimpleChanges.LOGGER.debug("Registering ModItems for" + SimpleChanges.MOD_ID);
       
       addItemsToItemGroup();
   }   
