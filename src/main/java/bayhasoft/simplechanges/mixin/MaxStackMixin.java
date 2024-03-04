@@ -140,6 +140,16 @@ public class MaxStackMixin {
 	private static int StackChestAcaciaBoat(int old) {return 16;}
 	
 	@ModifyArg(method = "<clinit>",
+		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 10),
+		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/BoatItem;")))
+	private static int StackCherryBoat(int old) {return 16;}
+	
+	@ModifyArg(method = "<clinit>",
+		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 11),
+		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/BoatItem;")))
+	private static int StackChestCherryBoat(int old) {return 16;}
+	
+	@ModifyArg(method = "<clinit>",
 		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 12),
 		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/BoatItem;")))
 	private static int StackDarkOakBoat(int old) {return 16;}
@@ -158,6 +168,16 @@ public class MaxStackMixin {
 		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 15),
 		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/BoatItem;")))
 	private static int StackChestMangroveBoat(int old) {return 16;}
+	
+	@ModifyArg(method = "<clinit>",
+		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 16),
+		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/BoatItem;")))
+	private static int StackBambooRaft(int old) {return 16;}
+	
+	@ModifyArg(method = "<clinit>",
+		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 17),
+		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/BoatItem;")))
+	private static int StackBambooChestRaft(int old) {return 16;}
 
 //Sign Items
 	@ModifyArg(method = "<clinit>",
@@ -186,6 +206,11 @@ public class MaxStackMixin {
 	private static int StackAcaciaSign(int old) {return 64;}
 	
 	@ModifyArg(method = "<clinit>",
+		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 5),
+		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/SignItem;")))
+	private static int StackCherrySign(int old) {return 64;}
+	
+	@ModifyArg(method = "<clinit>",
 		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 6),
 		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/SignItem;")))
 	private static int StackDarkOakSign(int old) {return 64;}
@@ -196,14 +221,75 @@ public class MaxStackMixin {
 	private static int StackMangroveSign(int old) {return 64;}
 	
 	@ModifyArg(method = "<clinit>",
-		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 9),
+		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 8),
 		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/SignItem;")))
 	private static int StackCrimsonSign(int old) {return 64;}
 	
 	@ModifyArg(method = "<clinit>",
-		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 10),
+		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 9),
 		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/SignItem;")))
 	private static int StackWarpedSign(int old) {return 64;}
+	
+	@ModifyArg(method = "<clinit>",
+		at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 10),
+		slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/SignItem;")))
+	private static int StackbamboSign(int old) {return 64;}
+
+	//Sign Items
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 0),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackOakHangingSign(int old) {return 64;}
+		
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 1),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackSpruceHangingSign(int old) {return 64;}
+		
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 2),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackBirchHangingSign(int old) {return 64;}
+		
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 3),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackJungleHangingSign(int old) {return 64;}
+		
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 4),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackAcaciaHangingSign(int old) {return 64;}
+		
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 5),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackCherryHangingSign(int old) {return 64;}
+		
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 6),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackDarkOakHangingSign(int old) {return 64;}
+		
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 7),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackMangroveHangingSign(int old) {return 64;}
+		
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 8),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackCrimsonHangingSign(int old) {return 64;}
+		
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 9),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackWarpedHangingSign(int old) {return 64;}
+		
+		@ModifyArg(method = "<clinit>",
+			at = @At(value = "INVOKE", target = "Lnet/minecraft/item/Item$Settings;maxCount(I)Lnet/minecraft/item/Item$Settings;", ordinal = 10),
+			slice = @Slice( from = @At(value = "NEW", target = "Lnet/minecraft/item/HangingSignItem;")))
+		private static int StackbamboHangingSign(int old) {return 64;}
 	
 //Horse Items 
 //	TODO:fix sadles equip bug for horses (look at lama and carpet maybe)
