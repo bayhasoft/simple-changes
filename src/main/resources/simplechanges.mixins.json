@@ -1,7 +1,7 @@
 {
     "required": true,
     "package": "bayhasoft.simplechanges.mixin",
-    "compatibilityLevel": "JAVA_17",
+    "compatibilityLevel": "JAVA_21",
     "mixins": [
         "SimpleChangesMixin",
         "MaxStackMixin"
