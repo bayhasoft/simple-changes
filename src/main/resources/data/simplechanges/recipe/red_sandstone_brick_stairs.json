@@ -6,9 +6,7 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "simplechanges:red_sandstone_brick_block"
-        }
+        "#": "simplechanges:red_sandstone_brick_block"
     },
     "result": {
         "id": "simplechanges:red_sandstone_brick_stairs",

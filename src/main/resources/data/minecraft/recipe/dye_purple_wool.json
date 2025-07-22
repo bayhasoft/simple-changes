@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": "#minecraft:wool",
+        "O": "minecraft:purple_dye"
+    },
+    "result": {
+        "id": "minecraft:purple_wool",
+        "count": 8
+    },
+    "group": "wool",
+    "category": "building"
+}

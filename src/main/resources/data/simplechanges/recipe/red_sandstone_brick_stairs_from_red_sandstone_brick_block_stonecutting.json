@@ -1,8 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "simplechanges:red_sandstone_brick_block"
-    },
+    "ingredient": "simplechanges:red_sandstone_brick_block",
     "result": {
         "id":  "simplechanges:red_sandstone_brick_stairs"
     },

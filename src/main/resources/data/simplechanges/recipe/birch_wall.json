@@ -5,9 +5,7 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:birch_slab"
-        }
+        "#": "minecraft:birch_slab"
     },
     "result": {
         "id": "simplechanges:birch_wall",

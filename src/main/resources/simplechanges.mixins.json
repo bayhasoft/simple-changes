@@ -1,12 +1,21 @@
 {
-    "required": true,
-    "package": "bayhasoft.simplechanges.mixin",
-    "compatibilityLevel": "JAVA_21",
-    "mixins": [
-        "SimpleChangesMixin",
-        "MaxStackMixin"
-    ],
-    "injectors": {
-        "defaultRequire": 1
-    }
+  "required": true,
+  "package": "bayhasoft.simplechanges.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ArmorStandStackMixin",
+    "BedStackMixin",
+    "BoatStackMixin",
+    "BucketStackMixin",
+    "EggStackMixin",
+    "EnderPearlStackMixin",
+    "HangingSignStackMixin",
+    "MinecartStackMixin",
+    "PotionStackMixin",
+    "SignStackMixin",
+    "SnowballStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
