@@ -3,17 +3,14 @@
   "package": "bayhasoft.simplechanges.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ArmorStandStackMixin",
     "BedStackMixin",
     "BoatStackMixin",
     "BucketStackMixin",
     "EggStackMixin",
-    "EnderPearlStackMixin",
     "HangingSignStackMixin",
     "MinecartStackMixin",
     "PotionStackMixin",
-    "SignStackMixin",
-    "SnowballStackMixin"
+    "SignStackMixin"
   ],
   "injectors": {
     "defaultRequire": 1

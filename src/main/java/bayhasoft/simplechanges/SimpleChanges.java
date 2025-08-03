@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import bayhasoft.simplechanges.LootTablesModifiers.LootTablesEntitiesModifier;
 import bayhasoft.simplechanges.util.CustomTrades;
+import bayhasoft.simplechanges.util.ItemComponentEvents;
 import bayhasoft.simplechanges.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
@@ -24,6 +25,7 @@ public class SimpleChanges implements ModInitializer {
 
 		ModRegistries.registerModThings();
 		CustomTrades.registerCustomTrades();
+		ItemComponentEvents.ModifyItemComponents();
 		
 
 	}
