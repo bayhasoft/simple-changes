@@ -3,6 +3,7 @@ package bayhasoft.simplechanges.util;
 import bayhasoft.simplechanges.SimpleChanges;
 import net.fabricmc.fabric.api.item.v1.DefaultItemComponentEvents;
 import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.DamageResistantComponent;
 import net.minecraft.item.Items;
 
 public class ItemComponentEvents {
@@ -347,6 +348,42 @@ public class ItemComponentEvents {
         DefaultItemComponentEvents.MODIFY.register(context -> {
             context.modify(Items.MUSIC_DISC_WARD, 
             builder -> builder.add(DataComponentTypes.MAX_STACK_SIZE, 64));
+        });
+
+// Obsidian Items
+        DefaultItemComponentEvents.MODIFY.register(context -> {
+            context.modify(Items.OBSIDIAN, 
+            builder -> builder.add(DataComponentTypes.DAMAGE_RESISTANT, new DamageResistantComponent(ModTags.DamageTypes.IS_FIRE_OR_EXPLOSION)));
+        });
+
+        DefaultItemComponentEvents.MODIFY.register(context -> {
+            context.modify(Items.CRYING_OBSIDIAN, 
+            builder -> builder.add(DataComponentTypes.DAMAGE_RESISTANT, new DamageResistantComponent(ModTags.DamageTypes.IS_FIRE_OR_EXPLOSION)));
+        });
+
+        DefaultItemComponentEvents.MODIFY.register(context -> {
+            context.modify(Items.RESPAWN_ANCHOR, 
+            builder -> builder.add(DataComponentTypes.DAMAGE_RESISTANT, new DamageResistantComponent(ModTags.DamageTypes.IS_FIRE_OR_EXPLOSION)));
+        });
+
+        DefaultItemComponentEvents.MODIFY.register(context -> {
+            context.modify(Items.ENCHANTING_TABLE, 
+            builder -> builder.add(DataComponentTypes.DAMAGE_RESISTANT, new DamageResistantComponent(ModTags.DamageTypes.IS_FIRE_OR_EXPLOSION)));
+        });
+        
+        DefaultItemComponentEvents.MODIFY.register(context -> {
+            context.modify(Items.DRAGON_EGG, 
+            builder -> builder.add(DataComponentTypes.DAMAGE_RESISTANT, new DamageResistantComponent(ModTags.DamageTypes.IS_FIRE_OR_EXPLOSION)));
+        });
+        
+        DefaultItemComponentEvents.MODIFY.register(context -> {
+            context.modify(Items.ENDER_CHEST, 
+            builder -> builder.add(DataComponentTypes.DAMAGE_RESISTANT, new DamageResistantComponent(ModTags.DamageTypes.IS_FIRE_OR_EXPLOSION)));
+        });
+        
+        DefaultItemComponentEvents.MODIFY.register(context -> {
+            context.modify(Items.BEACON, 
+            builder -> builder.add(DataComponentTypes.DAMAGE_RESISTANT, new DamageResistantComponent(ModTags.DamageTypes.IS_FIRE_OR_EXPLOSION)));
         });
     }
 }

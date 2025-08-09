@@ -6,8 +6,11 @@
     "BedStackMixin",
     "BoatStackMixin",
     "BucketStackMixin",
+    "minecartcontrol.DefaultMinecartControllerMixin",
     "EggStackMixin",
+    "minecartcontrol.ExperimentalMinecartControllerMixin",
     "HangingSignStackMixin",
+    "minecartcontrol.MinecartMixin",
     "MinecartStackMixin",
     "PotionStackMixin",
     "SignStackMixin"

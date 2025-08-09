@@ -1,6 +1,6 @@
 package bayhasoft.simplechanges.util;
 
-import bayhasoft.simplechanges.ModBlocks;
+import bayhasoft.simplechanges.block.ModBlocks;
 import bayhasoft.simplechanges.SimpleChanges;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistryEvents;

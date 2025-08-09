@@ -3,12 +3,12 @@
     
     "item.simplechanges.sandstone_brick_block": "Sandstone Brick",
     "item.simplechanges.sandstone_brick_slab": "Sandstone Brick Slab",
-    "block.simplechanges.sandstone_brick_stairs": "Sandstone Brick Staris",
+    "block.simplechanges.sandstone_brick_stairs": "Sandstone Brick Stairs",
     "item.simplechanges.sandstone_brick_wall": "Sandstone Brick Wall",
     "item.simplechanges.red_sandstone_brick_wall": "Red Sandstone Brick Wall",
     "item.simplechanges.red_sandstone_brick_block": "Red Sandstone Brick",
     "item.simplechanges.red_sandstone_brick_slab": "Red Sandstone Brick Slab",
-    "block.simplechanges.red_sandstone_brick_stairs": "Red Sandstone Brick Staris",
+    "block.simplechanges.red_sandstone_brick_stairs": "Red Sandstone Brick Stairs",
     "item.simplechanges.oak_wall": "Oak Wall",
     "item.simplechanges.spruce_wall": "Spruce Wall",
     "item.simplechanges.birch_wall": "Birch Wall",
@@ -20,5 +20,6 @@
     "item.simplechanges.cherry_wall": "Cherry Wall",
     "item.simplechanges.crimson_wall": "Crimson Wall",
     "item.simplechanges.warped_wall": "Warped Wall",
-    "item.simplechanges.pale_oak_wall": "Pale Oak Wall"
+    "item.simplechanges.pale_oak_wall": "Pale Oak Wall",
+    "item.simplechanges.copper_rail": "Copper Rail"
 }
