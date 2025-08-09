@@ -43,7 +43,7 @@ public class LootTablesEntitiesModifier {
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 2.0f)).build())
                     .apply(EnchantedCountIncreaseLootFunction.builder(registries, UniformLootNumberProvider.create(0, 1)));
                 tableBuilder.pool(poolBuilder.build());
-            }
+            }            
         });
     }
 }

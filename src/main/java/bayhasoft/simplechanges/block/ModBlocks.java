@@ -1,14 +1,10 @@
-package bayhasoft.simplechanges;
+package bayhasoft.simplechanges.block;
 
 import java.util.function.Function;
 
+import bayhasoft.simplechanges.SimpleChanges;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.MapColor;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.StairsBlock;
-import net.minecraft.block.WallBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -74,6 +70,9 @@ public class ModBlocks {
     public static final Block WARPED_WALL = registerBlock("warped_wall", WallBlock::new,
         AbstractBlock.Settings.create().mapColor(MapColor.DARK_AQUA).strength(2.0f, 3.0f).sounds(BlockSoundGroup.NETHER_WOOD), true);
 
+    public static final Block COPPER_RAIL = registerBlock("copper_rail" , PoweredRailBlock::new,
+        AbstractBlock.Settings.create().noCollision().strength(0.7F).sounds(BlockSoundGroup.METAL),true);
+
     
 
 
@@ -123,6 +122,10 @@ public class ModBlocks {
             itemGroup.add(ModBlocks.BAMBOO_WALL.asItem());
             itemGroup.add(ModBlocks.CRIMSON_WALL.asItem());
             itemGroup.add(ModBlocks.WARPED_WALL.asItem());
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register((itemGroup) -> {
+            itemGroup.add(ModBlocks.COPPER_RAIL.asItem());
         });
     }
 

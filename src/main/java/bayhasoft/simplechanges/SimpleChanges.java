@@ -1,5 +1,6 @@
 package bayhasoft.simplechanges;
 
+import bayhasoft.simplechanges.block.ModBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

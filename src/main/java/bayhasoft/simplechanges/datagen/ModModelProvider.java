@@ -1,6 +1,6 @@
 package bayhasoft.simplechanges.datagen;
 
-import bayhasoft.simplechanges.ModBlocks;
+import bayhasoft.simplechanges.block.ModBlocks;
 import bayhasoft.simplechanges.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;

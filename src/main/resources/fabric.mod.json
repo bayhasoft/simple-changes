@@ -21,6 +21,9 @@
     "main": [
       "bayhasoft.simplechanges.SimpleChanges"
     ],
+    "client": [
+      "bayhasoft.simplechanges.SimpleChangesClient"
+    ],
     "fabric-datagen": [
       "bayhasoft.simplechanges.DataGeneration"
     ]
