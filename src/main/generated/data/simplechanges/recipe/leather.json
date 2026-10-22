@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "leather",
+  "ingredients": [
+    "simplechanges:pig_skin",
+    "simplechanges:pig_skin"
+  ],
+  "result": {
+    "id": "minecraft:leather"
+  }
+}

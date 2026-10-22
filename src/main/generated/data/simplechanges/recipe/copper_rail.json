@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wood_wall",
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "R": "minecraft:redstone",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "C C",
+    "CSC",
+    "CRC"
+  ],
+  "result": {
+    "count": 16,
+    "id": "simplechanges:copper_rail"
+  }
+}

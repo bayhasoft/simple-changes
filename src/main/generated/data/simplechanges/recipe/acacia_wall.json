@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wood_wall",
+  "key": {
+    "x": "minecraft:acacia_slab"
+  },
+  "pattern": [
+    "   ",
+    "xxx",
+    "xxx"
+  ],
+  "result": {
+    "count": 3,
+    "id": "simplechanges:acacia_wall"
+  }
+}

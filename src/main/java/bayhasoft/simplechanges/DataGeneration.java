@@ -1,6 +1,8 @@
 package bayhasoft.simplechanges;
 
+import bayhasoft.simplechanges.datagen.ModBlockLootTableProvider;
 import bayhasoft.simplechanges.datagen.ModModelProvider;
+import bayhasoft.simplechanges.datagen.ModRecipeProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
  
@@ -11,5 +13,7 @@ public class DataGeneration implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
         
 		pack.addProvider(ModModelProvider::new);
+        pack.addProvider(ModBlockLootTableProvider::new);
+        pack.addProvider(ModRecipeProvider::new);
 	}
 }

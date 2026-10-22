@@ -1,10 +1,10 @@
 package bayhasoft.simplechanges;
 
-import net.minecraft.item.CrossbowItem;
+import net.minecraft.world.item.CrossbowItem;
 
 public class CrossbowTestItem extends CrossbowItem {
 
-    public CrossbowTestItem(Settings settings) {
+    public CrossbowTestItem(Properties settings) {
         super(settings);
     }
     

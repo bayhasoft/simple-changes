@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "simplechanges:red_sandstone_brick_block",
+  "result": {
+    "id": "simplechanges:red_sandstone_brick_wall"
+  }
+}

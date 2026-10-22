@@ -1,12 +1,13 @@
 package bayhasoft.simplechanges.util;
 
 import bayhasoft.simplechanges.SimpleChanges;
-import net.minecraft.block.Block;
-import net.minecraft.entity.damage.DamageType;
-import net.minecraft.item.Item;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.tag.TagKey;
-import net.minecraft.util.Identifier;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.damagesource.DamageType;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
@@ -15,7 +16,7 @@ public class ModTags {
 
         @SuppressWarnings("unused")
         private static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(SimpleChanges.MOD_ID, name));
+            return TagKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(SimpleChanges.MOD_ID, name));
         }
     }
 
@@ -25,16 +26,16 @@ public class ModTags {
 
         @SuppressWarnings("unused")
         private static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, Identifier.of(SimpleChanges.MOD_ID, name));
+            return TagKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(SimpleChanges.MOD_ID, name));
         }
-    }    
-    
+    }
+
     public static class DamageTypes {
 
         public static final TagKey<DamageType> IS_FIRE_OR_EXPLOSION = createTag("is_fire_or_explosion");
 
         private static TagKey<DamageType> createTag(String name) {
-            return TagKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(SimpleChanges.MOD_ID, name));
+            return TagKey.create(Registries.DAMAGE_TYPE, Identifier.fromNamespaceAndPath(SimpleChanges.MOD_ID, name));
         }
     }
 }

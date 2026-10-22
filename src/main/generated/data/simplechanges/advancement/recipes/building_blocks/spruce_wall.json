@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spruce_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "simplechanges:spruce_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_spruce_wall"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "simplechanges:spruce_wall"
+    ]
+  }
+}

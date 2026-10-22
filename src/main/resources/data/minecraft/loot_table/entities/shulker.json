@@ -3,14 +3,13 @@
     "pools": [
         {
             "bonus_rolls": 0,
-            "conditions": [],
             "entries": [
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:shulker_shell",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 2
                         }
                     ]

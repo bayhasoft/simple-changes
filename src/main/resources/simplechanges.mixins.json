@@ -3,7 +3,6 @@
   "package": "bayhasoft.simplechanges.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "BedStackMixin",
     "BoatStackMixin",
     "BucketStackMixin",
     "minecartcontrol.DefaultMinecartControllerMixin",
@@ -12,8 +11,7 @@
     "HangingSignStackMixin",
     "minecartcontrol.MinecartMixin",
     "MinecartStackMixin",
-    "PotionStackMixin",
-    "SignStackMixin"
+    "PotionStackMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crimson_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "simplechanges:crimson_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crimson_wall"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "simplechanges:crimson_wall"
+    ]
+  }
+}

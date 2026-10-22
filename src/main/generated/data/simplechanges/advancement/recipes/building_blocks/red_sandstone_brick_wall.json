@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_sandstone_brick_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "simplechanges:red_sandstone_brick_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "simplechanges:red_sandstone_brick_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_red_sandstone_brick_wall"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "simplechanges:red_sandstone_brick_wall"
+    ]
+  }
+}
